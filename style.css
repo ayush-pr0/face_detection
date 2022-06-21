@@ -1,0 +1,23 @@
+body {
+    margin: auto;
+    padding: 0;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    position: absolute;
+    /* transform: rotateY(180deg); */
+}
+
+video {
+    width: 750px;
+    height: 560px;
+    /* background-color: black; */
+    /* transform: rotateY(180deg); */
+    /* -webkit-transform-origin-y: 180deg; */
+    border-radius: 1.6rem;
+}
